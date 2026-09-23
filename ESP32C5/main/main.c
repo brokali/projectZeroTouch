@@ -114,6 +114,7 @@
 #include "esp_rom_sys.h"
 #include "soc/soc.h"
 
+
 #if defined(__has_include)
 #if __has_include("soc/rtc_cntl_reg.h")
 #include "soc/rtc_cntl_reg.h"
@@ -211,6 +212,8 @@
 #define MAX_CLIENTS_PER_AP 50
 #define MAX_SNIFFER_APS 100
 #define MAX_PROBE_REQUESTS 200
+
+extern void init_projectzero_touch_terminal(void);
 
 static const uint8_t channel_view_24ghz_channels[] = {
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
@@ -25502,6 +25505,8 @@ void app_main(void) {
 
     linenoiseSetHintsCallback((linenoiseHintsCallback *)&janos_console_hint);
 
+    init_projectzero_touch_terminal();
+    
     ESP_ERROR_CHECK(esp_console_start_repl(repl));
     vTaskDelay(pdMS_TO_TICKS(500));
 
