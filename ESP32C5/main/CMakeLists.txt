@@ -1,4 +1,4 @@
-idf_component_register(SRCS "oled_display.c" "main.c" "attack_handshake.c" 
+idf_component_register(SRCS "oled_display.c" "main.c" "attack_handshake.c" "projectzero_gui.c"
                        INCLUDE_DIRS .
                        REQUIRES esp_timer esp_wifi esp_event esp_psram nvs_flash 
                                 console driver fatfs mbedtls esp-tls esp_http_server 
