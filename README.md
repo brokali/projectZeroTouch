@@ -1,6 +1,6 @@
 
 this is a fork to make it standalone using waveshare esp32-c5 2.8 inch display. it is still a cli device utilizing the capacitive touchscreen keyboard to type commands. this has only been compiled i have not flashed yet. i appreciate all the work c5labs has put into this project and really wanted to use this without being plugged into my phone as well as use this board for something afaik this is second port of a beloved community firmware ie bruce marauder ghost.... to this device and wanted to make a port thats unique. if anyone finds this repo and flashes please let me know if it works ty
-
+also if c5lab wants me to modify readme to remove or add anything to it like the graphics stats links...let me know i am not trying to take credit for your hard work on this firmware.
 
 
 <p align="center">
@@ -63,7 +63,7 @@ Built for all who want full control over their WiFi environment.
 
 > **Hybrid Wi-Fi Offensive & Research Framework**  
 > Evil Twin • WPA3 SAE Overflow • Wardriving • Sniffer • Karma  
-> Powered by **ESP32-C5** | UI via **CardputerADV**
+> Powered by **ESP32-C5** | UI via **touchscreen cli on deviceV**
 
 
 - 📡 Real-time WiFi scanning  
@@ -72,5 +72,5 @@ Built for all who want full control over their WiFi environment.
 - 🔌 Expandable hardware ecosystem  
 - 🎛️ External control (Flipper / M5Stack devices / UART / UI)  
 
----
+---added standalone cli with c5 waveshare = to cyd c5 but better
 
