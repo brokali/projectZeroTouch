@@ -1,3 +1,8 @@
+
+this is a fork to make it standalone using waveshare esp32-c5 2.8 inch display. it is still a cli device utilizing the capacitive touchscreen keyboard to type commands. this has only been compiled i have not flashed yet. i appreciate all the work c5labs has put into this project and really wanted to use this without being plugged into my phone as well as use this board for something afaik this is first port to this device and wanted to make a port thats unique. if anyone finds this repo and flashes please let me know if it works ty
+
+
+
 <p align="center">
   <img width="1322" height="511" alt="Zrzut ekranu 2026-03-23 o 20 51 42" src="https://github.com/user-attachments/assets/68bd2fce-96d9-4639-9e76-7a0575e76a20" />
 
