@@ -7,8 +7,7 @@ idf_component_register(SRCS "oled_display.c" "main.c" "attack_handshake.c" "proj
                                 pcap_serializer sniffer nrf24_jammer zig_recon 
                                 capture_gateway esp_driver_uart esp_driver_gpio 
                                 esp_driver_spi esp_driver_sdspi esp_driver_i2c esp_lcd 
-                                lvgl espressif__cjson espressif__led_strip)
+                                espressif__cjson espressif__led_strip)
 
 # Suppress strict null-pointer warnings from GCC 15 in IDF v6.0
 target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-error=nonnull)
-
