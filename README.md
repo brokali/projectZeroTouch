@@ -1,5 +1,5 @@
 
-this is a fork to make it standalone using waveshare esp32-c5 2.8 inch display. it is still a cli device utilizing the capacitive touchscreen keyboard to type commands. this has only been compiled i have not flashed yet. i appreciate all the work c5labs has put into this project and really wanted to use this without being plugged into my phone as well as use this board for something afaik this is first port to this device and wanted to make a port thats unique. if anyone finds this repo and flashes please let me know if it works ty
+this is a fork to make it standalone using waveshare esp32-c5 2.8 inch display. it is still a cli device utilizing the capacitive touchscreen keyboard to type commands. this has only been compiled i have not flashed yet. i appreciate all the work c5labs has put into this project and really wanted to use this without being plugged into my phone as well as use this board for something afaik this is second port of a beloved community firmware ie bruce marauder ghost.... to this device and wanted to make a port thats unique. if anyone finds this repo and flashes please let me know if it works ty
 
 
 
